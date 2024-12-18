@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-fourth-assignment-templating-engines",
+  "version": "1.0.0",
+  "description": "Assignment to practice templating engines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Silvia Fadó",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "nodemon": "^3.1.9",
+    "pug": "^3.0.3"
+  }
+}

@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<h1>Users</h1>
+{{#if hasUsers }}
+    <ul>
+        {{#each users}}
+            <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
+{{else}}
+    <h1>No Users Found!</h1>
+{{/if}}
